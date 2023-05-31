@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'Montserrat';
     scroll-behavior:smooth;
+    overflow-x: hidden;
 }
 
 img{
