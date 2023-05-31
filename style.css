@@ -808,3 +808,12 @@ footer .imgs{
         height: 250px;
     }
 }
+
+#adv{
+    display: block !important;
+}
+
+.adv-text{
+    display: block !important;
+}
+
