@@ -312,12 +312,12 @@ h3{
     transition: 0.5s;
 }
 
-.adv-img img{
+.bdv-img img{
     background-color: #8A4A44;
     width: 190px;
 }
 
-.advantages .content{
+.bdvantages .content{
     display: flex !important;
     text-align: center;
     justify-content: space-between;
@@ -325,13 +325,21 @@ h3{
     font-size: 24px;
 }
 
-.adv{
+#bdv{
+    display: block !important;
+}
+
+.bdv-text{
+    display: block !important;
+}
+
+.bdv{
     height: auto;
     width: 100%;
     display: block !important;
 }
 
-.adv-text{
+.bdv-text{
     margin-top: 10px;
 
 }
@@ -515,7 +523,7 @@ footer .imgs{
 }
 
 @media(max-width: 1690px) {
-    .adv{
+    .bdv{
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -615,11 +623,11 @@ footer .imgs{
         padding-right: 80px;
         font-size: 25px;
     }
-    .cards, .advantages .content{
+    .cards, .bdvantages .content{
         flex-direction: column;
         height: auto;
     }
-    .adv{
+    .bdv{
         margin-bottom: 50px;
     }
 }
@@ -628,7 +636,7 @@ footer .imgs{
     h1{
         font-size: 50px;
     }
-    .adv-img img{
+    .bdv-img img{
         width: 200px;
     }
     .content{
@@ -638,7 +646,7 @@ footer .imgs{
     .content p{
         font-size: 18px;
     }
-    .adv{
+    .bdv{
         width: 100%;
     }
 }
@@ -667,13 +675,13 @@ footer .imgs{
     .card-button a{
         padding: 0;
     }
-    .adv-img img{
+    .bdv-img img{
         width: 150px;
     }
-    .adv-text{
+    .bdv-text{
         font-size: 18px;
     }
-    .adv-text b{
+    .bdv-text b{
         font-size: 20px;
     }
     .all-but{
@@ -697,7 +705,7 @@ footer .imgs{
         margin-right: auto;
         padding-left: 20px;
         padding-right: 20px;
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
     .adr1 .card-h h3, .adr2 .card-h h3{
@@ -740,10 +748,10 @@ footer .imgs{
     .but-cont{
         padding-top: 30px;
     }
-    .adv-text{
+    .bdv-text{
         font-size: 12px;
     }
-    .adv img{
+    .bdv img{
         width: 100px;
     }
     .adr1 .card-h h3, .adr2 .card-h h3{
@@ -775,7 +783,7 @@ footer .imgs{
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .adv .content{
+    .bdv .content{
         padding-left: 25px;
         padding-right: 25px;
     }
@@ -808,12 +816,3 @@ footer .imgs{
         height: 250px;
     }
 }
-
-#adv{
-    display: block !important;
-}
-
-.adv-text{
-    display: block !important;
-}
-
